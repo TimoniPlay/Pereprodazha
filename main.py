@@ -47,7 +47,7 @@ from aiogram.utils.markdown import hlink
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8954609177:AAGWaI3BXF113WVmUqdxJp-QUnrflYqCi2E").strip()
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004466348374").strip()
-LLM_API_KEY = os.getenv("LLM_API_KEY", "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").strip()
+LLM_API_KEY = os.getenv("LLM_API_KEY", "").strip()
 
 # Провайдер ШІ: groq | openrouter | openai | deepseek | anthropic
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "groq").strip().lower()
